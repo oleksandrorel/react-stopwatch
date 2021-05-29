@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  min-height: 100%;
+  background-color: $page-color;
+}
+
+body, h1, h2, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+button {
+  font-family: "Courier New", Courier, monospace;
+}

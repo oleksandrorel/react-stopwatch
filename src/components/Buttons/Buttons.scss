@@ -1,0 +1,28 @@
+@import '../../helpers/variables.scss';
+
+.Stopwatch {
+  &-Buttons {
+    margin-top: 50px;
+  }
+
+  &-Button {
+    width: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: $background-color;
+    border: $border;
+    outline: $active-color;
+  }
+
+  &-Button:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &-Button:active {
+    background-color: $active-color;
+  }
+
+  &-Button:hover {
+    border: $hover-border;
+  }
+}

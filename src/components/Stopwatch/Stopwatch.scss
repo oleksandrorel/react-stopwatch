@@ -1,0 +1,16 @@
+@import '../../helpers/variables.scss';
+
+.Stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  height: 400px;
+  width: 500px;
+  border: $border;
+  background-color: $background-color;
+
+  &-Title {
+    margin-top: 110px;
+  }
+}
